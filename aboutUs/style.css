@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+}
+
+html{
+  min-height: 100vh;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 83.5%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.logo a{
+  text-decoration: none;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.about-us,
+.contact-info {
+  padding: 80px 0;
+}
+
+.about-us h2 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.contact-info h2 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-info{
+  max-width: 50%;
+  margin: auto;
+}
+
+.about-us > .container{
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* CSS for Footer */
+footer {
+  background-color: #333; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 20px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align text */
+  bottom: 0;
+  width: 100%;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px; /* Set maximum width for container */
+  margin: 0 auto; /* Center container horizontally */
+}
+
+/* Styling for links */
+footer a {
+  color: #fff; /* Set link color */
+  text-decoration: none; /* Remove default underline */
+  margin: 0 10px; /* Add margin between links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}

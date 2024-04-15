@@ -1,0 +1,166 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-container input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.search-container button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px;
+  border: none;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+.category-navigation {
+  margin-top: 5rem;
+  padding: 15px 0;
+  height: 30vh;
+}
+
+.category-navigation ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.category-item {
+  text-align: center;
+  max-width: 30rem;
+  max-height: 20vh;
+}
+
+.category-item img {
+  width: 8rem;
+  height: 8rem;
+  object-fit: contain;
+}
+
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .category-navigation ul {
+    flex-wrap: wrap; /* Wrap items onto multiple lines on smaller screens */
+  }
+  .category-item {
+    flex-basis: calc(
+      33% - 20px
+    ); /* Adjust width based on desired number of columns */
+    margin-bottom: 20px;
+  }
+}
+
+/* CSS for Footer */
+footer {
+  background-color: #333; /* Set background color */
+  color: #fff; /* Set text color */
+  padding: 20px 0; /* Add padding to the top and bottom */
+  text-align: center; /* Center-align text */
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px; /* Set maximum width for container */
+  margin: 0 auto; /* Center container horizontally */
+}
+
+/* Styling for links */
+footer a {
+  color: #fff; /* Set link color */
+  text-decoration: none; /* Remove default underline */
+  margin: 0 10px; /* Add margin between links */
+}
+
+footer a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Navigation hover effect */
+nav a:hover {
+  color: #eee;
+  background-color: black;
+}
+
+/* Category navigation background image */
+.category-navigation {
+  background-image: url("subtle_texture.jpg"); /* Replace with your image filename */
+}
+
+/* Category item card design */
+.category-item {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+  width: 10rem;
+  height: 30vh;
+}
+
+/* Content section heading */
+.content h2 {
+  font-size: 28px;
+  margin-bottom: 1rem;
+}
