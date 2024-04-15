@@ -5,7 +5,7 @@ body {
   /* height: 100vh; */
 }
 
-html{
+html {
   min-height: 100vh;
 }
 
@@ -34,7 +34,7 @@ header {
   color: #333;
 }
 
-.logo a{
+.logo a {
   text-decoration: none;
 }
 nav ul {
@@ -91,40 +91,37 @@ nav a {
   margin-top: 2rem;
 }
 
-.contact-info{
+.contact-info {
   max-width: 50%;
   margin: auto;
 }
 
-.about-us > .container{
+.about-us > .container {
   display: flex;
   flex-direction: column;
 }
 
-
-/* CSS for Footer */
 footer {
-  background-color: #333; /* Set background color */
-  color: #fff; /* Set text color */
-  padding: 20px 0; /* Add padding to the top and bottom */
-  text-align: center; /* Center-align text */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
   bottom: 0;
   width: 100%;
   position: relative;
 }
 
 .container {
-  max-width: 1200px; /* Set maximum width for container */
-  margin: 0 auto; /* Center container horizontally */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Styling for links */
 footer a {
-  color: #fff; /* Set link color */
-  text-decoration: none; /* Remove default underline */
-  margin: 0 10px; /* Add margin between links */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }

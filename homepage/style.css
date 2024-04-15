@@ -97,58 +97,50 @@ nav a {
   object-fit: contain;
 }
 
-/* Media query for mobile responsiveness */
 @media (max-width: 768px) {
   .category-navigation ul {
-    flex-wrap: wrap; /* Wrap items onto multiple lines on smaller screens */
+    flex-wrap: wrap;
   }
   .category-item {
-    flex-basis: calc(
-      33% - 20px
-    ); /* Adjust width based on desired number of columns */
+    flex-basis: calc(33% - 20px);
     margin-bottom: 20px;
   }
 }
 
-/* CSS for Footer */
 footer {
-  background-color: #333; /* Set background color */
-  color: #fff; /* Set text color */
-  padding: 20px 0; /* Add padding to the top and bottom */
-  text-align: center; /* Center-align text */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
   bottom: 0;
   position: absolute;
   width: 100%;
 }
 
 .container {
-  max-width: 1200px; /* Set maximum width for container */
-  margin: 0 auto; /* Center container horizontally */
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* Styling for links */
 footer a {
-  color: #fff; /* Set link color */
-  text-decoration: none; /* Remove default underline */
-  margin: 0 10px; /* Add margin between links */
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 footer a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
-/* Navigation hover effect */
 nav a:hover {
   color: #eee;
   background-color: black;
 }
 
-/* Category navigation background image */
 .category-navigation {
-  background-image: url("subtle_texture.jpg"); /* Replace with your image filename */
+  background-image: url("subtle_texture.jpg");
 }
 
-/* Category item card design */
 .category-item {
   background-color: #fff;
   border-radius: 5px;
@@ -159,7 +151,6 @@ nav a:hover {
   height: 30vh;
 }
 
-/* Content section heading */
 .content h2 {
   font-size: 28px;
   margin-bottom: 1rem;
