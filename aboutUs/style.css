@@ -125,3 +125,22 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.about-us {
+  background-image: url("../homepage/images/aboutbg.jpeg");
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  color: black;
+  flex: content;
+}
+
+.about-us>.container>p{
+  display: block;
+  color: white;
+  font-size: 1.2rem;
+}
+
+#about-head{
+  font-size: 4rem;
+  color: purple;
+}
